@@ -95,94 +95,124 @@
     <!-- ---------- Franja de beneficios (5 bloques de color) ---------- -->
     <section class="franja-beneficios">
       <div class="beneficio">
-        <h3>Productos originales</h3>
-        <p>Trabajamos con las mejores marcas.</p>
+        <div class="beneficio-icono">
+          <img src="img/iconos/original.svg" alt="Productos originales">
+        </div>
+        <div class="beneficio-texto">
+          <h3>Productos originales</h3>
+          <p>Trabajamos con las mejores marcas.</p>
+        </div>
       </div>
+
       <div class="beneficio">
-        <h3>Envíos a todo el Perú</h3>
-        <p>Llega seguro y rápido hasta tu puerta.</p>
+        <div class="beneficio-icono">
+          <img src="img/iconos/envios.svg" alt="Envíos a todo el Perú">
+        </div>
+        <div class="beneficio-texto">
+          <h3>Envíos a todo el Perú</h3>
+          <p>Llega seguro y rápido hasta tu puerta.</p>
+        </div>
       </div>
+
       <div class="beneficio">
-        <h3>Atención personalizada</h3>
-        <p>Te asesoramos para elegir lo mejor para ti.</p>
+        <div class="beneficio-icono">
+          <img src="img/iconos/asesoria.svg" alt="Atención personalizada">
+        </div>
+        <div class="beneficio-texto">
+          <h3>Atención personalizada</h3>
+          <p>Te asesoramos para elegir lo mejor para ti.</p>
+        </div>
       </div>
+
       <div class="beneficio">
-        <h3>Compra segura</h3>
-        <p>Tus datos y pagos están protegidos.</p>
+        <div class="beneficio-icono">
+          <img src="img/iconos/seguridad.svg" alt="Compra segura">
+        </div>
+        <div class="beneficio-texto">
+          <h3>Compra segura</h3>
+          <p>Tus datos y pagos están protegidos.</p>
+        </div>
       </div>
+
       <div class="beneficio">
-        <h3>Clientes satisfechos</h3>
-        <p>Confían en nosotros y recomiendan.</p>
+        <div class="beneficio-icono">
+          <img src="img/iconos/clientes.svg" alt="Clientes satisfechos">
+        </div>
+        <div class="beneficio-texto">
+          <h3>Clientes satisfechos</h3>
+          <p>Confían en nosotros y recomiendan.</p>
+        </div>
       </div>
     </section>
 
 
-    <!-- ---------- ¿Qué quieres mejorar? (orientación para el cliente) ----------
-         Cada tarjeta lleva a la sección correspondiente de productos.html -->
-    <section class="seccion" id="necesidades">
-  <div class="contenedor">
-    <span class="etiqueta-seccion">Empecemos por ti</span>
-    <h2>¿Qué quieres mejorar hoy?</h2>
-    <p class="intro-seccion">
-      Elige una necesidad y te mostramos qué tomar, cuánto y por cuánto tiempo.
-      Sin costo y sin compromiso de compra.
-    </p>
+    <!-- ---------- Sección: Productos destacados ---------- -->
+    <section class="seccion" id="destacados">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Los más pedidos</span>
+        <h2>Productos destacados</h2>
+        <p class="intro-seccion">
+          Conoce nuestros productos estrella para iniciar un estilo de vida más natural. Consulta disponibilidad y atención personalizada por WhatsApp.
+        </p>
 
-    <div class="cuadricula">
-      <a href="productos.html#digestion" class="necesidad">
-        <span class="icono">
-          <img src="img/digestion.png" alt="">
-        </span>
-        Digestión y desintoxicación
-      </a>
+        <!-- Sistema Grid para productos -->
+        <div class="grid-productos">
 
-      <a href="productos.html#energia" class="necesidad">
-        <span class="icono">
-          <img src="img/energia.png" alt="">
-        </span>
-        Energía y vitalidad
-      </a>
+          <!-- Producto 1: Cúrcuma -->
+          <article class="producto">
+            <img src="img/productos/curcuma.jpeg" alt="Harina de Cúrcuma natural">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">Más vendido</span>
+              <span class="categoria">Huesos y digestión</span>
+              <h3>🌿 Cúrcuma</h3>
+              <p class="descripcion-corta">"Apoyo natural para bienestar"</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 29.90</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20deseo%20consultar%20sobre%20la%20C%C3%BArcuma" class="boton boton-verde" target="_blank" rel="noopener">Consultar</a>
+              </div>
+            </div>
+          </article>
 
-      <a href="productos.html#huesos" class="necesidad">
-        <span class="icono">
-          <img src="img/huesos.png" alt="">
-        </span>
-        Huesos y articulaciones
-      </a>
+          <!-- Producto 2: Aguaje + Maca negra -->
+          <article class="producto">
+            <img src="img/productos/aguaje.jpeg" alt="Cápsulas de aguaje con maca negra">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">Recomendado</span>
+              <span class="categoria">Energía y vitalidad</span>
+              <h3>🌸 Aguaje + Maca negra</h3>
+              <p class="descripcion-corta">"Energía sostenida y equilibrio hormonal"</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 45.00</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20deseo%20consultar%20sobre%20el%20Aguaje%20con%20Maca%20negra" class="boton boton-verde" target="_blank" rel="noopener">Consultar</a>
+              </div>
+            </div>
+          </article>
 
-      <a href="productos.html#defensas" class="necesidad">
-        <span class="icono">
-          <img src="img/defensas.png" alt="">
-        </span>
-        Defensas
-      </a>
+          <!-- Producto 3: Colágeno + Vitamina C -->
+          <article class="producto">
+            <img src="img/productos/colageno.jpeg" alt="Colágeno hidrolizado con vitamina C">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">En oferta</span>
+              <span class="categoria">Belleza y movilidad</span>
+              <h3>✨ Colágeno + Vitamina C</h3>
+              <p class="descripcion-corta">"Piel más firme y cuidado articular"</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 69.90</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20deseo%20consultar%20sobre%20el%20Col%C3%A1geno%20con%20Vitamina%20C" class="boton boton-verde" target="_blank" rel="noopener">Consultar</a>
+              </div>
+            </div>
+          </article>
 
-      <a href="productos.html#corazon" class="necesidad">
-        <span class="icono">
-          <img src="img/corazon.png" alt="">
-        </span>
-        Corazón y presión
-      </a>
+        </div>
 
-      <a href="productos.html#piel" class="necesidad">
-        <span class="icono">
-          <img src="img/piel.png" alt="">
-        </span>
-        Belleza y piel
-      </a>
-
-      <a href="productos.html#descanso" class="necesidad">
-        <span class="icono">
-          <img src="img/descanso.png" alt="">
-        </span>
-        Descanso y estrés
-      </a>
-    </div>
-  </div>
-</section>
+        <p class="enlace-mas">
+          <a href="productos.html">Ver el catálogo completo de todos los productos</a>
+        </p>
+      </div>
+    </section>
 
 
-    <!-- ---------- Cómo funciona (4 pasos en orden) ---------- -->
+    <!-- ---------- Cómo funciona ---------- -->
     <section class="seccion fondo-blanco" id="como-funciona">
       <div class="contenedor">
         <span class="etiqueta-seccion">Cómo funciona</span>
@@ -219,74 +249,137 @@
     </section>
 
 
-    <!-- ---------- Productos destacados (3 tarjetas) ---------- -->
-    <section class="seccion" id="destacados">
+    <!-- ---------- Sección: Conoce nuestros productos ---------- -->
+    <section class="seccion" id="galeria">
       <div class="contenedor">
-        <span class="etiqueta-seccion">Los más pedidos</span>
-        <h2>Tres de los productos mas solicitados para empezar</h2>
+        <span class="etiqueta-seccion">Catálogo y Variedad</span>
+        <h2>Conoce nuestros productos</h2>
         <p class="intro-seccion">
-          Precios referenciales en tienda. Consulta disponibilidad por WhatsApp.
+          Explora nuestras líneas especializadas para cuidar tu salud de forma integral y natural.
+        </p>
+
+        <!-- Galería Grid con categorías y tarjetas -->
+        <div class="grid-galeria">
+
+          <!-- Tarjeta 1: Digestión -->
+          <a href="productos.html#digestion" class="tarjeta-galeria">
+            <img src="img/categorias/cat_digestion.jpg" alt="Categoría Digestión y Limpieza">
+            <div class="galeria-info">
+              <h3>Digestión</h3>
+            </div>
+          </a>
+
+          <!-- Tarjeta 2: Energía -->
+          <a href="productos.html#energia" class="tarjeta-galeria">
+            <img src="img/categorias/cat_energia.jpg" alt="Categoría Energía y Vitalidad">
+            <div class="galeria-info">
+              <h3>Energía y Vitalidad</h3>
+            </div>
+          </a>
+
+          <!-- Tarjeta 3: Articulaciones -->
+          <a href="productos.html#huesos" class="tarjeta-galeria">
+            <img src="img/categorias/cat_articulaciones.jpg" alt="Categoría Huesos y Articulaciones">
+            <div class="galeria-info">
+              <h3>Huesos y Articulaciones</h3>
+            </div>
+          </a>
+
+          <!-- Tarjeta 4: Defensas -->
+          <a href="productos.html#defensas" class="tarjeta-galeria">
+            <img src="img/categorias/cat_defensas.jpg" alt="Categoría Defensas e Inmunidad">
+            <div class="galeria-info">
+              <h3>Defensas</h3>
+            </div>
+          </a>
+
+          <!-- Tarjeta 5: Corazón -->
+          <a href="productos.html#corazon" class="tarjeta-galeria">
+            <img src="img/categorias/cat_corazon.jpg" alt="Categoría Corazón y Presión">
+            <div class="galeria-info">
+              <h3>Corazón y Presión</h3>
+            </div>
+          </a>
+
+          <!-- Tarjeta 6: Descanso -->
+          <a href="productos.html#descanso" class="tarjeta-galeria">
+            <img src="img/categorias/cat_descanso.jpg" alt="Categoría Descanso y Relajación">
+            <div class="galeria-info">
+              <h3>Descanso y Estrés</h3>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------- qué quieres mejorar -->
+    <section class="seccion fondo-blanco" id="necesidades">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Empecemos por ti</span>
+        <h2>¿Qué quieres mejorar hoy?</h2>
+        <p class="intro-seccion">
+          Elige una necesidad y te mostramos qué tomar, cuánto y por cuánto tiempo.
+          Sin costo y sin compromiso de compra.
         </p>
 
         <div class="cuadricula">
+          <a href="productos.html#digestion" class="necesidad">
+            <span class="icono">
+              <img src="img/digestion.png" alt="">
+            </span>
+            Digestión y desintoxicación
+          </a>
 
-          <article class="producto">
-            <!-- REEMPLAZAR: foto real del producto -->
-            <img src="img/productos/curcuma.jpeg" alt="Bolsa de harina de cúrcuma de 200 gramos">
-            <div class="producto-cuerpo">
-              <span class="etiqueta">Más vendido</span>
-              <span class="categoria">Huesos y articulaciones</span>
-              <h3>Harina de cúrcuma 200 g</h3>
-              <p>Antiinflamatorio natural que se siente en las articulaciones y en la digestión.</p>
-              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 1 cucharadita en agua tibia, 2 veces al día, por 3 meses.</p>
-              <div class="producto-pie">
-                <span class="precio">S/ 29.90</span>
-                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20la%20harina%20de%20c%C3%BArcuma" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
-              </div>
-            </div>
-          </article>
+          <a href="productos.html#energia" class="necesidad">
+            <span class="icono">
+              <img src="img/energia.png" alt="">
+            </span>
+            Energía y vitalidad
+          </a>
 
-          <article class="producto">
-            <img src="img/productos/aguaje.jpeg" alt="Frasco de cápsulas de aguaje con maca negra">
-            <div class="producto-cuerpo">
-              <span class="etiqueta">Recomendado</span>
-              <span class="categoria">Energía y equilibrio</span>
-              <h3>Aguaje + Maca negra</h3>
-              <p>Energía sostenida durante el día y apoyo al equilibrio hormonal femenino.</p>
-              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 2 cápsulas con el desayuno, en ciclos de 3 meses.</p>
-              <div class="producto-pie">
-                <span class="precio">S/ 45.00</span>
-                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20aguaje%20con%20maca%20negra" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
-              </div>
-            </div>
-          </article>
+          <a href="productos.html#huesos" class="necesidad">
+            <span class="icono">
+              <img src="img/huesos.png" alt="">
+            </span>
+            Huesos y articulaciones
+          </a>
 
-          <article class="producto">
-            <img src="img/productos/colageno.jpeg" alt="Frasco de colágeno con vitamina C en polvo">
-            <div class="producto-cuerpo">
-              <span class="etiqueta">En oferta</span>
-              <span class="categoria">Piel y movilidad</span>
-              <h3>Colágeno + Vitamina C</h3>
-              <p>Piel más firme y articulaciones cuidadas, con absorción rápida y sabor neutro.</p>
-              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 1 medida (10 g) en agua, una vez al día en ayunas.</p>
-              <div class="producto-pie">
-                <span class="precio">S/ 69.90</span>
-                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20col%C3%A1geno%20con%20vitamina%20C" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
-              </div>
-            </div>
-          </article>
+          <a href="productos.html#defensas" class="necesidad">
+            <span class="icono">
+              <img src="img/defensas.png" alt="">
+            </span>
+            Defensas
+          </a>
 
+          <a href="productos.html#corazon" class="necesidad">
+            <span class="icono">
+              <img src="img/corazon.png" alt="">
+            </span>
+            Corazón y presión
+          </a>
+
+          <a href="productos.html#piel" class="necesidad">
+            <span class="icono">
+              <img src="img/piel.png" alt="">
+            </span>
+            Belleza y piel
+          </a>
+
+          <a href="productos.html#descanso" class="necesidad">
+            <span class="icono">
+              <img src="img/descanso.png" alt="">
+            </span>
+            Descanso y estrés
+          </a>
         </div>
-
-        <p class="enlace-mas">
-          <a href="productos.html">Ver la tabla comparativa de todos los productos</a>
-        </p>
       </div>
     </section>
 
 
     <!-- ---------- Testimonios ---------- -->
-    <section class="seccion fondo-blanco" id="testimonios">
+    <section class="seccion" id="testimonios">
       <div class="contenedor">
         <span class="etiqueta-seccion">Historias reales</span>
         <h2>Personas que ya hicieron el cambio</h2>
