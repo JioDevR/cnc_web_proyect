@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- ===== Meta tags básicos: codificación, vista móvil y título ===== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Casa Naturista China: productos naturales originales y asesoría personalizada en Tacna.">
+  <title>Casa Naturista China | Productos naturales en Tacna</title>
+
+  <!-- Ícono de la pestaña del navegador -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Tipografía Poppins desde Google Fonts (si no hay internet se usa Arial) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos externa del sitio -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <!-- ==================================================================
+       ENCABEZADO (igual en todas las páginas)
+       Barra superior + logo + menú de navegación + botón de WhatsApp
+       ================================================================== -->
+  <header>
+
+    <div class="barra-superior">
+      Envíos a todo el Perú &nbsp;|&nbsp; Productos 100 % originales &nbsp;|&nbsp; 2 locales en Tacna
+    </div>
+
+    <div class="encabezado">
+      <div class="contenedor">
+
+        <!-- Logo: vuelve al inicio -->
+        <a href="index.html" class="logo">
+          <img src="img/logo.png" alt="Logo de Casa Naturista China">
+          <span>Casa Naturista<br>China</span>
+        </a>
+
+        <!-- Menú principal. La clase "activo" marca la página actual -->
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html" class="activo">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!-- wa.me abre WhatsApp con el número indicado -->
+        <a href="https://wa.me/51919589549" class="boton-whatsapp" target="_blank" rel="noopener">
+          WhatsApp 919 589 549
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <!-- ==================================================================
+       CONTENIDO PRINCIPAL
+       ================================================================== -->
+  <main>
+
+    <!-- ---------- Portada (hero): mensaje principal + foto ---------- -->
+    <section class="portada">
+      <div class="contenedor">
+
+        <div class="portada-texto">
+          <p class="frase-manuscrita">Tu bienestar comienza aquí</p>
+          <h1>EL CAMINO NATURAL A TU BIENESTAR</h1>
+          <p>
+            No vendemos frascos: te acompañamos. Cuéntanos qué quieres mejorar
+            y armamos contigo un tratamiento natural, paso a paso.
+          </p>
+          <div class="portada-botones">
+            <a href="contacto.html" class="boton boton-naranja">Recibir asesoría gratis</a>
+            <a href="productos.html" class="boton boton-borde">Ver productos</a>
+          </div>
+        </div>
+
+        <div class="portada-imagen">
+          <!-- REEMPLAZAR: foto real de productos en la tienda -->
+          <img src="img/hero-productos.jpeg" alt="Productos naturales de Casa Naturista China sobre el mostrador de la tienda">
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ---------- Franja de beneficios (5 bloques de color) ---------- -->
+    <section class="franja-beneficios">
+      <div class="beneficio">
+        <h3>Productos originales</h3>
+        <p>Trabajamos con las mejores marcas.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Envíos a todo el Perú</h3>
+        <p>Llega seguro y rápido hasta tu puerta.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Atención personalizada</h3>
+        <p>Te asesoramos para elegir lo mejor para ti.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Compra segura</h3>
+        <p>Tus datos y pagos están protegidos.</p>
+      </div>
+      <div class="beneficio">
+        <h3>Clientes satisfechos</h3>
+        <p>Confían en nosotros y recomiendan.</p>
+      </div>
+    </section>
+
+
+    <!-- ---------- ¿Qué quieres mejorar? (orientación para el cliente) ----------
+         Cada tarjeta lleva a la sección correspondiente de productos.html -->
+    <section class="seccion" id="necesidades">
+  <div class="contenedor">
+    <span class="etiqueta-seccion">Empecemos por ti</span>
+    <h2>¿Qué quieres mejorar hoy?</h2>
+    <p class="intro-seccion">
+      Elige una necesidad y te mostramos qué tomar, cuánto y por cuánto tiempo.
+      Sin costo y sin compromiso de compra.
+    </p>
+
+    <div class="cuadricula">
+      <a href="productos.html#digestion" class="necesidad">
+        <span class="icono">
+          <img src="img/digestion.png" alt="">
+        </span>
+        Digestión y desintoxicación
+      </a>
+
+      <a href="productos.html#energia" class="necesidad">
+        <span class="icono">
+          <img src="img/energia.png" alt="">
+        </span>
+        Energía y vitalidad
+      </a>
+
+      <a href="productos.html#huesos" class="necesidad">
+        <span class="icono">
+          <img src="img/huesos.png" alt="">
+        </span>
+        Huesos y articulaciones
+      </a>
+
+      <a href="productos.html#defensas" class="necesidad">
+        <span class="icono">
+          <img src="img/defensas.png" alt="">
+        </span>
+        Defensas
+      </a>
+
+      <a href="productos.html#corazon" class="necesidad">
+        <span class="icono">
+          <img src="img/corazon.png" alt="">
+        </span>
+        Corazón y presión
+      </a>
+
+      <a href="productos.html#piel" class="necesidad">
+        <span class="icono">
+          <img src="img/piel.png" alt="">
+        </span>
+        Belleza y piel
+      </a>
+
+      <a href="productos.html#descanso" class="necesidad">
+        <span class="icono">
+          <img src="img/descanso.png" alt="">
+        </span>
+        Descanso y estrés
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ---------- Cómo funciona (4 pasos en orden) ---------- -->
+    <section class="seccion fondo-blanco" id="como-funciona">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Cómo funciona</span>
+        <h2>Lo natural funciona cuando es constante</h2>
+        <p class="intro-seccion">
+          Un producto natural no actúa como una pastilla que apaga el síntoma:
+          apoya al cuerpo para que recupere su equilibrio. Por eso importa la dosis,
+          el momento del día y el tiempo de uso, y por eso te acompañamos en cada paso.
+        </p>
+
+        <div class="cuadricula">
+          <article class="paso">
+            <span class="numero">Paso 1</span>
+            <h3>Nos cuentas</h3>
+            <p>Qué quieres mejorar, desde cuándo y qué tomas hoy. Sin formularios eternos.</p>
+          </article>
+          <article class="paso">
+            <span class="numero">Paso 2</span>
+            <h3>Te recomendamos</h3>
+            <p>Elegimos 1 o 2 productos, no diez, con la dosis exacta para tu caso.</p>
+          </article>
+          <article class="paso">
+            <span class="numero">Paso 3</span>
+            <h3>Lo tomas con guía</h3>
+            <p>Horario, tiempo de uso y qué combinar. Te recordamos  sobre su consumo.</p>
+          </article>
+          <article class="paso">
+            <span class="numero">Paso 4</span>
+            <h3>Notas el cambio</h3>
+            <p>Revisamos contigo a las 3 semanas y ajustamos si hace falta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------- Productos destacados (3 tarjetas) ---------- -->
+    <section class="seccion" id="destacados">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Los más pedidos</span>
+        <h2>Tres de los productos mas solicitados para empezar</h2>
+        <p class="intro-seccion">
+          Precios referenciales en tienda. Consulta disponibilidad por WhatsApp.
+        </p>
+
+        <div class="cuadricula">
+
+          <article class="producto">
+            <!-- REEMPLAZAR: foto real del producto -->
+            <img src="img/productos/curcuma.jpeg" alt="Bolsa de harina de cúrcuma de 200 gramos">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">Más vendido</span>
+              <span class="categoria">Huesos y articulaciones</span>
+              <h3>Harina de cúrcuma 200 g</h3>
+              <p>Antiinflamatorio natural que se siente en las articulaciones y en la digestión.</p>
+              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 1 cucharadita en agua tibia, 2 veces al día, por 3 meses.</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 29.90</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20la%20harina%20de%20c%C3%BArcuma" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="producto">
+            <img src="img/productos/aguaje.jpeg" alt="Frasco de cápsulas de aguaje con maca negra">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">Recomendado</span>
+              <span class="categoria">Energía y equilibrio</span>
+              <h3>Aguaje + Maca negra</h3>
+              <p>Energía sostenida durante el día y apoyo al equilibrio hormonal femenino.</p>
+              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 2 cápsulas con el desayuno, en ciclos de 3 meses.</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 45.00</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20aguaje%20con%20maca%20negra" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="producto">
+            <img src="img/productos/colageno.jpeg" alt="Frasco de colágeno con vitamina C en polvo">
+            <div class="producto-cuerpo">
+              <span class="etiqueta">En oferta</span>
+              <span class="categoria">Piel y movilidad</span>
+              <h3>Colágeno + Vitamina C</h3>
+              <p>Piel más firme y articulaciones cuidadas, con absorción rápida y sabor neutro.</p>
+              <p class="como-tomar"><strong>Cómo tomarlo:</strong> 1 medida (10 g) en agua, una vez al día en ayunas.</p>
+              <div class="producto-pie">
+                <span class="precio">S/ 69.90</span>
+                <a href="https://wa.me/51919589549?text=Hola,%20quiero%20col%C3%A1geno%20con%20vitamina%20C" class="boton boton-verde" target="_blank" rel="noopener">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="enlace-mas">
+          <a href="productos.html">Ver la tabla comparativa de todos los productos</a>
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ---------- Testimonios ---------- -->
+    <section class="seccion fondo-blanco" id="testimonios">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Historias reales</span>
+        <h2>Personas que ya hicieron el cambio</h2>
+
+        <!-- REEMPLAZAR: cifras reales del negocio -->
+        <div class="cifras">
+          <div class="cifra"><strong>4.9/5</strong> valoración de clientes</div>
+          <div class="cifra"><strong>+800</strong> pedidos entregados</div>
+          <div class="cifra"><strong>2</strong> locales en Tacna</div>
+        </div>
+
+        <div class="cuadricula">
+          <blockquote class="testimonio">
+            <span class="estrellas">★★★★★</span>
+            <p>Me explicaron cómo tomar la cúrcuma y a las tres semanas ya dormía mejor y sin dolor de rodillas.</p>
+            <cite>Rosa M. · Tacna</cite>
+          </blockquote>
+          <blockquote class="testimonio">
+            <span class="estrellas">★★★★★</span>
+            <p>Lo mejor fue la asesoría: no me vendieron de todo, solo lo que necesitaba. Ya es mi tercera compra.</p>
+            <cite>Luis Ángel P. · Tacna</cite>
+          </blockquote>
+          <blockquote class="testimonio">
+            <span class="estrellas">★★★★★</span>
+            <p>Comparé precios en la web y fui directo al local que tenía stock. Me ahorré una vuelta.</p>
+            <cite>Paola H. · Tacna</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------- Llamado final a la acción ---------- -->
+    <section class="seccion fondo-verde">
+      <div class="contenedor texto-centrado">
+        <h2>¿No sabes por dónde empezar?</h2>
+        <p>Cuéntanos tu caso y te respondemos en menos de 24 horas con una recomendación concreta.</p>
+        <a href="contacto.html" class="boton boton-naranja">Enviar mi consulta</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==================================================================
+       PIE DE PÁGINA (igual en todas las páginas)
+       Datos de contacto, redes sociales y aviso de derechos
+       ================================================================== -->
+  <footer class="pie">
+    <div class="contenedor">
+
+      <div class="pie-columnas">
+
+        <div class="pie-columna">
+          <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Logo de Casa Naturista China">
+            <span>Casa Naturista<br>China</span>
+          </a>
+          <p>Productos naturales originales y asesoría real para toda la familia, desde 2024 en Tacna.</p>
+        </div>
+
+        <div class="pie-columna">
+          <h3>Contacto</h3>
+          <ul>
+            <!-- REEMPLAZAR: datos reales de los locales -->
+            <li>Local 1: Av. Patricio Melendez 1290, Cercado de Tacna</li>
+            <li>Local 2: Asoc. San Francisco Mz 19 Lote 1- Distrito CGAL, Tacna</li>
+            <li>WhatsApp: <a href="https://wa.me/51919589549">919 589 549</a></li>
+            <li>Correo: <a href="mailto:farmaciachinatacna@gmail.com">farmaciachinatacna@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="pie-columna">
+          <h3>Secciones</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="pie-columna">
+          <h3>Síguenos</h3>
+          <!-- REEMPLAZAR: enlaces reales de las redes sociales -->
+          <div class="redes">
+            <a href="https://www.facebook.com/casanaturistachina/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/casanaturistachina/?hl=es-la/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.tiktok.com/@casanaturistachina?lang=es/" target="_blank" rel="noopener">TikTok</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pie-final">
+        <p>&copy; 2026 Casa Naturista China. Todos los derechos reservados.</p>
+        <ul>
+          <li><a href="#">Términos</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Libro de reclamaciones</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
